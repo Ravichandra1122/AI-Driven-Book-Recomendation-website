@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Book Recommendation</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Book Recommendation</h1>
+
+        <label for="genreSelect">Select a Genre:</label>
+        <select id="genreSelect">
+            <option value="Fantasy">Fantasy</option>
+            <option value="Science Fiction">Science Fiction</option>
+            <option value="Mystery">Mystery</option>
+        </select>
+
+        <button onclick="getRecommendations()">Get Recommendations</button>
+
+        <div class="recommendations" id="recommendationsContainer"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
